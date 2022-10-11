@@ -1,0 +1,11 @@
+https://leetcode.com/problems/recyclable-and-low-fat-products/
+
+Solution:
+# Write your MySQL query statement below
+SELECT 
+product_id
+FROM 
+Products
+where
+low_fats= 'Y' and recyclable = 'Y'
+;
