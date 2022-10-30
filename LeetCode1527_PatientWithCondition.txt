@@ -1,0 +1,5 @@
+https://leetcode.com/problems/patients-with-a-condition/
+
+Solution: When the conditions are starting with the name and also when there are in between so they start with a space
+# Write your MySQL query statement below
+select patient_id, patient_name, conditions from Patients where conditions like '% DIAB1%' or conditions like 'DIAB1%';
